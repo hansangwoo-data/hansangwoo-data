@@ -1,16 +1,16 @@
-# Hello, My name is Sangwoo Han.
+# Hi, I am Sangwoo Han
 
-Live Game Operations professional transitioning into Data Analytics.
+Live service game operations professional transitioning into data analytics.
 
 ## Background
 - Live service game operations experience
 - Interested in game user behavior analysis
 
 ## Skills
-- Python (Pandas)
+- Python (Pandas, NumPy)
 - SQL
 - Data Analysis
-- Data Visualization
+- Data Visualization (Matplotlib)
 
 ## Current Focus
 Building data analytics projects using real game service data.
