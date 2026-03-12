@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi, I am Sangwoo Han 👋
 
-<!--
-**hansangwoo-data/hansangwoo-data** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Live Game Operations professional transitioning into Data Analytics.
 
-Here are some ideas to get you started:
+## Background
+- Live service game operations experience
+- Interested in game user behavior analysis
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Skills
+- Python (Pandas)
+- SQL
+- Data Analysis
+- Data Visualization
+
+## Current Focus
+Building data analytics projects using real game service data.
+
+## Projects
+- Game User Behavior Analysis
+- Retention Analysis
+- Monetization Analysis
