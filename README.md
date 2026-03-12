@@ -1,4 +1,4 @@
-# Hi, I am Sangwoo Han 👋
+# Hello, My name is Sangwoo Han.
 
 Live Game Operations professional transitioning into Data Analytics.
 
