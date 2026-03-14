@@ -6,6 +6,18 @@ Live service game operations professional transitioning into data analytics.
 - Live service game operations experience
 - Interested in game user behavior analysis
 
+## Interests
+- Game data analysis
+- SQL
+- Python
+- Data visualization
+- Portfolio projects
+
+## Current Goals
+- Build game data analysis projects
+- Strengthen SQL and pandas skills
+- Transition into a data-related role
+
 ## Skills
 - Python (Pandas, NumPy)
 - SQL
@@ -15,7 +27,7 @@ Live service game operations professional transitioning into data analytics.
 ## Current Focus
 Building data analytics projects using real game service data.
 
-## Projects
-- Game User Behavior Analysis
-- Retention Analysis
-- Monetization Analysis
+## Planned Projects
+1. Game User Behavior Analysis
+2. Retention Analysis
+3. Monetization Analysis
