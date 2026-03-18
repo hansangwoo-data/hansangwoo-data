@@ -52,8 +52,7 @@ Topics covered:
 * Retention behavior
 
 Repository:
-
-https://github.com/hansangwoo-data/game-user-behavior-analysis
+- To be updated
 
 ---
 
