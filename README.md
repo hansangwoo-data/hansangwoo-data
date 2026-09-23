@@ -1,54 +1,35 @@
-# Han Sangwoo
+# Han Sangwoo | 한상우
 
-**Live-Service Game Operations → Data Analytics / Analytics Engineering**
+**라이브서비스 운영 기반 데이터 분석**
 
-I have **5 years and 10 months of experience in global game live-service operations**, covering launch preparation, ongoing operations, incident response, KPI reporting, cross-functional coordination, and end-of-service support.
+**5년 10개월간 글로벌 라이브서비스를 운영**하며 KPI·VOC 분석, 운영 데이터 검증, 프로세스 표준화를 수행했습니다. 현재는 **SQL·Python 기반 개인 프로젝트**로 데이터 분석 직무로 커리어를 확장하고 있습니다.
 
-While turning operational data into tournament infographics and reviewing event performance, I became increasingly interested in the work behind frontline operations: defining useful questions, validating whether data can be trusted, and building an analysis environment that helps teams make better decisions. I am now transitioning into Data Analytics, with a long-term interest in Analytics Engineering and Data Engineering.
+## 실무에서 쌓은 역량
 
-## What I Bring
+- **KPI·VOC 분석:** 지표 변동과 고객 반응을 함께 검토하고, 원인 가설과 개선 우선순위를 정리해 유관 부서에 공유했습니다.
+- **데이터 검증:** 고객 문의·운영툴 로그·실제 데이터 테이블을 대조하고 개발·QA·사업팀과 원인을 확인했습니다.
+- **프로세스 표준화:** Excel 정기 보고 구조, 답변 템플릿, Bug Tracker와 운영 가이드를 정리해 반복 업무와 인수인계를 개선했습니다.
 
-- Live-service context for interpreting **DAU, revenue, paying users, retention, event performance, and VOC**
-- Experience connecting analysis findings to **operational decisions and cross-functional communication**
-- A validation-first approach: checking **data freshness, reference tables, and configuration conditions** before interpreting unusual results
-- Hands-on portfolio work with **SQL, Python, pandas, data visualization, table-grain design, and automated data-quality testing**
-- Practical use of LLMs for translation, documentation, code assistance, and cross-checking, with human review of terminology, source data, and execution results
+## 주요 프로젝트
 
-## Featured Projects
+### [Synthetic Global Collectible RPG Analytics](https://github.com/hansangwoo-data/Synthetic-Global-Collectible-RPG-Analytics)
+*개인 프로젝트 · Python · SQL · Pandas*
 
-### 1. [Synthetic Global Collectible RPG Analytics](https://github.com/hansangwoo-data/Synthetic-Global-Collectible-RPG-Analytics)
+- 글로벌 RPG를 가정한 **6개 테이블·27,351행의 합성 데이터**로 운영 KPI와 리텐션을 분석했습니다.
+- 지표 기준과 테이블 관계를 정의하고, 자동 테스트와 **SQL↔Pandas 교차검증**으로 정합성을 확인했습니다. 검증 중 발견한 결제자 수 불일치를 수정하고 관련 검사를 추가했습니다.
 
-An end-to-end analytics project based on a fully fictional global collectible RPG scenario.
+> 합성 데이터 기반 분석이며, 실제 서비스 성과나 인과 효과를 입증한 결과가 아닙니다.
 
-- Designed **6 analysis-ready tables with explicit grain**
-- Generated **27,351 synthetic rows** and applied **64 automated data-quality and integrity tests**
-- Analyzed lifecycle, retention, PvE participation, monetization, incident recovery, and regional strategy
-- Connected data generation → quality assurance → analysis → visualization → recommendations
-- Used **Python, pandas, NumPy, Matplotlib, Seaborn, and unit testing**
+### [E-commerce Revenue Analysis](https://github.com/hansangwoo-data/ecommerce-revenue-analysis-sql)
+*개인 프로젝트 · BigQuery · SQL · Python*
 
-Selected findings include a featured-boss participation rate reaching only **82.2% of its benchmark**, adjacent-offer revenue per payer-day declining **9.9%**, and returned users recovering to **293.9% of baseline** while revenue reached only **56.2%**.
+- 공개 데이터 `thelook_ecommerce`의 **완료 주문 31,166건·주문 상품 45,245건**으로 첫 주문·반복 주문, 카테고리·가격대별 매출 구조를 분석했습니다.
+- 주문·상품의 분석 단위와 **gross_sales·AOV 기준**을 정의하고, SQL로 ID·NULL·조인·집계 결과를 검증했습니다.
 
-> All data, events, products, timelines, and service incidents in this project are independently designed and synthetic. No proprietary company or player data is included.
+## 도구와 작업 방식
 
-### 2. [SQL E-commerce Revenue Analysis](https://github.com/hansangwoo-data/ecommerce-revenue-analysis-sql)
+- **실무 운영 분석:** Excel, KPI·VOC 모니터링, 운영 데이터 교차검증
+- **개인 프로젝트·분석 자동화:** SQL, Python, BigQuery, Pandas, 자동 데이터 품질 검사
+- **AI 활용:** ChatGPT·Claude를 구현·검토 보조로 활용하며, **분석·검증 기준을 직접 정하고 최종 결과를 확인**합니다.
 
-An analysis of purchase behavior and revenue drivers using BigQuery's public `thelook_ecommerce` dataset.
-
-- Compared new and returning-user purchase behavior
-- Examined category-level revenue structures and price segments
-- Used **BigQuery SQL** for extraction and aggregation
-- Used **Python, pandas, and Matplotlib** for visualization and interpretation
-
-The analysis found that revenue differences were driven more by **purchase frequency and transaction value** than by transaction volume alone.
-
-## Tools
-
-- **Data analysis:** SQL, Python, pandas
-- **Visualization:** Matplotlib, Seaborn
-- **Data platform:** BigQuery
-- **Operational analysis:** Excel, KPI reporting, VOC and community-signal interpretation
-- **Workflow:** Git, GitHub, Jupyter Notebook
-
-## Current Direction
-
-I am pursuing Data Analyst roles where I can combine live-service domain knowledge with structured analysis and reliable data practices. Over time, I aim to expand from analysis into analytics engineering, data modeling, and automated data workflows.
+**자격:** ADsP · 2026.08 취득 | SQLD · 2026.03 취득
